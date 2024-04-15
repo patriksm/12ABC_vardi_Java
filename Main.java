@@ -15,7 +15,7 @@ public class Main{
 
         //matches()
 
-        String regex = "[abc]*";
+        String regex = "^[A-Z_a-z][a-z]*";
         System.out.println(input.matches(regex));
 
         // if(){
