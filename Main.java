@@ -2,11 +2,25 @@ import java.util.Scanner;
 
 public class Main{
     public static void main(String[] args){
+
+        //UZD 1 - nodrošināt vārda ievadīšanu
+
         Scanner scanner = new Scanner(System.in);
         System.out.println("Uzdevums par vārdiem");
         System.out.println("Ievadi savu vārdu");
         String input = scanner.nextLine();
         System.out.println("Ievadītais vārds ir: " + input);
+
+        //UZD 2 - pārbaudīt lietotāja ievadīto vērtību, vai tas ir vārds
+
+        //matches()
+
+        String regex = "[abc]";
+        System.out.println(input.matches(regex));
+
+        // if(){
+
+        // }
     }
 }
 
