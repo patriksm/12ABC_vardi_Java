@@ -5,7 +5,7 @@ public class Main{
 
         //UZD 1 - nodrošināt vārda ievadīšanu
 
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in, "UTF-8");
         System.out.println("Uzdevums par vārdiem");
         System.out.println("Ievadi savu vārdu");
         String input = scanner.nextLine();
@@ -15,7 +15,7 @@ public class Main{
 
         //matches()
 
-        String regex = "[abc]";
+        String regex = "[abc]*";
         System.out.println(input.matches(regex));
 
         // if(){
