@@ -1,9 +1,12 @@
 import java.util.Scanner;
+import java.util.HashMap;
 
 public class Main{
     public static void main(String[] args){
 
         //UZD 1 - nodrošināt vārda ievadīšanu
+
+        HashMap<Integer, String> vardi = new HashMap<>();
 
         Scanner scanner = new Scanner(System.in, "UTF-8");
         System.out.println("Uzdevums par vārdiem");
@@ -39,12 +42,21 @@ public class Main{
         
         // otrais variants
 
-        System.out.println(input.length());
+        System.out.println("Simbolu skaits vārdā: " + input.length());
         for(int i=0; i< input.length(); i++){   
             System.out.println(input.charAt(i));
         }
 
         // UZD 3 - 
+
+        String alfabetsTXT = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        char[] alfabets = alfabetsTXT.toCharArray();
+        System.out.println(alfabets[0]);
+
+        System.out.println("====================================");
+        System.out.println(vardi);
+        vardi.put(3, input);
+        System.out.println(vardi);
     }
 }
 
