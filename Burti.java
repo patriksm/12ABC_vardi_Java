@@ -1,6 +1,7 @@
 public class Burti{
     public static void main(String[] args){
-        String alfabetsTXT = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        // String alfabetsTXT = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        String alfabetsTXT = "AĀBCČDEĒFGĢHIĪJKĶLĻMNŅOPRSŠTUŪVZŽ";
         String teksts = "Dobele";
         char[] alfabets = alfabetsTXT.toCharArray();
         // System.out.println(teksts.charAt(0));
